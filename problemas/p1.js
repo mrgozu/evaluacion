@@ -10,20 +10,9 @@
  */
 
 const data = require("./src/input-p1.json"); // Se corrige nombre del archivo
-//console.log(data.hijos.map(data => data));
 var totalNodos = 0; // Variable Auxiliar para contabilizar nodos totales
 
 //console.log(data);
-
-
-
-
-
-
-
-
-
-//lo de aqui abajo funciona bien
 
 // Funcion que verifica si la cantidad de hijos es mayor a 0, esta funcion retorna valores booleanos
 function tieneHijos(nodo) {
